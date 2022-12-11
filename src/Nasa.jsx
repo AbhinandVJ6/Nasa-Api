@@ -13,7 +13,7 @@ const Nasa = () => {
     { weather.map((ad) => {
         return (
           
-            <div className="weatherApp"  key={ad.id}><h1 class="hd" >API View</h1> <hr />
+            <div className="weatherApp"  key={ad.id}><h1 class="hd" >API View</h1> <hr/>
               
                 <h1>{ad.countryCode} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                 <h1>{ad.id} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
